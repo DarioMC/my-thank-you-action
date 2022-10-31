@@ -1,6 +1,6 @@
 name: 'PR Thank You Action'
-description: 'Demo for tutorial'
-author: 'Colby Fayock <hello@colbyfayock.com>'
+description: 'PoC GitHub actions'
+author: 'Dario MC <dmcsubotai95@gmail.com>'
 
 inputs:
   GITHUB_TOKEN:
@@ -18,4 +18,4 @@ inputs:
 
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'src/action2.js'
